@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+
+        form {
+            width: 400px;
+            border: 1px solid black;
+            border-radius: 8px;
+            padding: 24px;
+        }
+
+        input, select {
+            margin-bottom: 8px;
+            font-size: 16px;
+            width: 350px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <hr>
+
+    <a href="./index.html">Home</a>
+    <a href="./education.html">Education</a>
+    <a href="./work.html">Work Experience</a>
+    <a href="./contact.html">Contact Me</a>
+
+    <hr>
+
+    <h1>Contact Me</h1>
+
+    <form>
+        <p>Enter your info..</p>
+        <label for="name">Your name</label><br>
+        <input type="text" id="name"><br>
+        <label for="email">Your E-mail</label><br>
+        <input type="text" id="email"><br>
+        <label for="gender">Gender</label><br>
+        <select id="gender">
+            <option value="">Select...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label>Message</label><br>
+        <textarea name="message" style="width: 350px; height: 200px;"></textarea><br>
+        <input type="submit" style="width: fit-content;">
+        <input type="reset" style="width: fit-content;">
+
+
+        
+    </form>
+    
+</body>
+</html>
